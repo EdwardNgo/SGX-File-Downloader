@@ -1,0 +1,17 @@
+{
+    "logging": {
+      "level": "DEBUG",
+      "date_strftime_format": "%d-%b-%y %H:%M:%S",
+      "message_format": "%(asctime)s - %(levelname)s - %(message)s",
+      "file_name": "downloader.log"
+    },
+    "logging_handler":{
+        "level":"INFO",
+        "date_strftime_format": "%d-%b-%y %H:%M:%S",
+        "formatter": "%(asctime)s - %(levelname)s - %(message)s"
+    },
+    "retry_count": 3,
+    "max_file": 4,
+    "save_path" : "./data",
+    "date_strftime_format":"%d/%m/%Y"
+  }
