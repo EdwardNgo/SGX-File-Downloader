@@ -76,7 +76,9 @@ The config file is written with json format "config.json". It contains several c
 ### About the recovering plan
 For automatic redownloading, I write a job that run on every Sunday to check if the data is ok for every day in that week so there is a way for recovering plan. However this method can not make sure that it run well because it can be failed at any time like the download job everyday so this somehow reduce the failed rate.
 
-For manually check failed download, if we have a small amount like this I think it should be considered. I recommend Airflow with UI instead of the scheduler like this so that we can do the manually check easier
+For manually check failed download, if we have a small amount like this I think it should be considered. I recommend Airflow with UI instead of the scheduler like this so that we can do the manually check easier.
+
+I recommend using both automatic and manual method for recovering plan
 
 ### Some problems not mentioned in the test requirements
 
