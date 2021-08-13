@@ -78,7 +78,6 @@ For automatic redownloading, I write a job that run on every Sunday to check if 
 
 For manually check failed download, if we have a small amount like this I think it should be considered. I recommend Airflow with UI instead of the scheduler like this so that we can do the manually check easier.
 
-I recommend using both automatic and manual method for recovering plan
 
 ### Some problems not mentioned in the test requirements
 
